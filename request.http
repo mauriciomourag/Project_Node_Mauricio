@@ -1,0 +1,49 @@
+GET  http://localhost:4002/animals
+
+###
+
+POST http://localhost:4002/animals/add
+Content-Type: application/json
+
+{
+    "animal": "Primata"  
+}
+
+###
+
+DELETE http://localhost:4002/animals/delete
+Content-Type: application/json
+
+{
+    "animal": "Gato"  
+}
+
+###
+
+GET http://localhost:4002/infos
+
+###
+
+POST http://localhost:4002/infos/add
+Content-Type: application/json
+
+  {
+    "AnimalName": "Teste4",
+    "DonoName": "TesteDono4",
+    "age": 6,
+    "email": "teste4@gmail.com",
+    "animal": "Cachorro"
+  }
+
+###
+
+PUT http://localhost:4002/infos/
+Content-Type: application/json
+
+  {
+    "animal": "Primata"
+  }
+
+###
+
+DELETE http://localhost:4002/infos/04c13790-75b5-46eb-99d6-4926f45550e8
